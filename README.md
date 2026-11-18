@@ -6,6 +6,8 @@
 <picture><img src="./assets/inventory.svg?v=2" width="100%" alt="Inventory: tech stack" /></picture>
 <picture><img src="./assets/quests.svg?v=2" width="100%" alt="Quest log: experience" /></picture>
 
+<a href="https://github.com/eliasm4r/WondersBeyondRecomp"><img src="./assets/main-quest.svg?v=1" width="100%" alt="Main quest: WondersBeyondRecomp" /></a>
+
 <a href="https://github.com/eliasm4r/totk-recomp-mod-manager"><img src="./assets/quest1.svg?v=2" width="49%" alt="totk-recomp-mod-manager" /></a>
 <a href="https://github.com/eliasm4r/3arbiChat"><img src="./assets/quest2.svg?v=2" width="49%" alt="3arbiChat" /></a>
 <a href="https://github.com/eliasm4r/legend-of-war"><img src="./assets/quest3.svg?v=2" width="49%" alt="legend-of-war" /></a>

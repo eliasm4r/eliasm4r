@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="214" viewBox="0 0 840 214">
+<defs>
+<pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#fff" opacity=".035"/></pattern>
+<linearGradient id="gold" x1="0" x2="1"><stop offset="0" stop-color="#e3b341"/><stop offset="1" stop-color="#ffe08a"/></linearGradient>
+<filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace}
+.t{fill:#e3b341;font-size:13px;font-weight:700;letter-spacing:2px}
+.d{fill:#e8edf5;font-size:13px;opacity:.85}
+.chip{fill:#8b95a7;font-size:11px;letter-spacing:2px;font-weight:700}
+.blink{animation:blink 1.1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.bar{animation:fill 1.6s ease-out both}
+@keyframes fill{from{width:0}}
+</style>
+<rect x="1" y="1" width="838" height="212" rx="14" fill="#0a0d14"/>
+<rect x="14" y="16" width="812" height="184" rx="8" fill="#111622" stroke="#e3b341" stroke-opacity=".55" stroke-width="2"/>
+<rect x="28" y="6" width="122" height="20" fill="#0a0d14"/><text x="42" y="21" class="t">MAIN QUEST</text>
+<g filter="url(#glow)"><polygon points="44,54 52,46 60,54 52,62" fill="url(#gold)"/></g>
+<text x="72" y="60" font-size="22" font-weight="800" fill="url(#gold)">WondersBeyondRecomp</text>
+<text x="34" y="90" class="d">PokéPark 2: Wonders Beyond, a Wii game, running natively on PC. No emulator:</text>
+<text x="34" y="108" class="d">the game code is statically recompiled to C++, with the Wii hardware rebuilt on top.</text>
+<g>
+<rect x="34" y="124" width="92" height="24" rx="12" fill="#0a0d14" stroke="#2a3345"/><text x="80" y="140" text-anchor="middle" class="chip" fill="#e8edf5">240 FPS</text>
+<rect x="134" y="124" width="72" height="24" rx="12" fill="#0a0d14" stroke="#2a3345"/><text x="170" y="140" text-anchor="middle" class="chip">21:9</text>
+<rect x="214" y="124" width="128" height="24" rx="12" fill="#0a0d14" stroke="#2a3345"/><text x="278" y="140" text-anchor="middle" class="chip">HD TEXTURES</text>
+<rect x="350" y="124" width="64" height="24" rx="12" fill="#0a0d14" stroke="#8fb8ff" stroke-opacity=".6"/><text x="382" y="140" text-anchor="middle" class="chip" style="fill:#8fb8ff">C++</text>
+</g>
+<text x="34" y="178" class="chip">STATUS</text>
+<rect x="100" y="169" width="240" height="10" rx="5" fill="#0a0d14" stroke="#2a3345"/>
+<rect class="bar" x="101" y="170" width="96" height="8" rx="4" fill="url(#gold)"/>
+<text x="352" y="178" class="chip" style="fill:#e3b341">ALPHA</text>
+<g class="blink"><polygon points="742,166 742,178 751,172" fill="#e3b341"/></g>
+<text x="806" y="177" text-anchor="end" font-size="11" letter-spacing="2" fill="#e3b341" font-weight="700">START</text>
+<rect x="1" y="1" width="838" height="212" rx="14" fill="url(#scan)" pointer-events="none"/>
+</svg>
